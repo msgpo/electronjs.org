@@ -117,7 +117,8 @@
     "wait-on": "^5.1.0",
     "walk-sync": "^2.2.0",
     "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-middleware": "^3.7.2"
   },
   "lint-staged": {
     "*.js": "npm run lint:js",
