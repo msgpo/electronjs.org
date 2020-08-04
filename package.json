@@ -25,7 +25,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "check-for-leaks"
+      "pre-push": "check-for-leaks",
+      "pre-commit": "lint-staged"
     }
   },
   "dependencies": {
@@ -115,6 +116,9 @@
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-middleware": "^3.7.2"
+  },
+  "engines": {
+    "node": ">=12 <14"
   },
   "lint-staged": {
     "*.js": "npm run lint:js",
